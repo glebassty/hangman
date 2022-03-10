@@ -100,6 +100,8 @@ const App = () => {
     selectedWordArr = selectedWord.split("");
   };
 
+  // Changes
+
   const onShowPopup = () => {
     if (checkWin(correctLetters, wrongLetters, selectedWord) === "win") {
       setWinCount(winCount + 1);
